@@ -73,9 +73,9 @@ class convertTo:
     # method for debbug, print encoded input, encoded machine and the tape.
     def __print__(self):
         for row in self.encodeInput:
-            print('input converted -> ' + row)
+            print('encoded input -> ' + row)
 
-        print('\nMachine converted -> ' + self.encodeMachine + '\n')
+        print('\encoded machine -> ' + self.encodeMachine + '\n')
 
         for tape in self.tape:
             print('tape -> ' + tape)
